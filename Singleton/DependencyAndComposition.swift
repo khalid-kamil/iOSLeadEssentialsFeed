@@ -8,10 +8,12 @@
 import Foundation
 import UIKit
 
+// <Feed Feaure> Interface module - This protocol is what creates the dependency inversion. It acts as a boundary between modules.
 protocol FeedLoader {
     func loadFeed(completion: @escaping ([String]) -> Void)
 }
 
+// UI module
 class FeedViewController2: UIViewController {
     var loader: FeedLoader!
     
@@ -29,12 +31,14 @@ class FeedViewController2: UIViewController {
     }
 }
 
+// API module
 class RemoteFeedLoader: FeedLoader {
     func loadFeed(completion: @escaping ([String]) -> Void) {
         // do something
     }
 }
 
+// Database module
 class LocalFeedLoader: FeedLoader {
     func loadFeed(completion: @escaping ([String]) -> Void) {
         // do something
@@ -49,6 +53,8 @@ struct Reachability {
 // Create the logic a new type (service) instead of in the view controller
 // Since the view controller expects a FeedLoader, make this class conform to that protocol
 // So every class remains isolated
+
+// Composer/Adapter/Main module
 class RemoteWithLocalFallbackFeedLoader: FeedLoader {
     let remote: RemoteFeedLoader
     let local: LocalFeedLoader
