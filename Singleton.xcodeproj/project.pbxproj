@@ -14,6 +14,7 @@
 		E90624F42A267F4100DDA40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90624F32A267F4100DDA40F /* Assets.xcassets */; };
 		E90624F72A267F4100DDA40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90624F52A267F4100DDA40F /* LaunchScreen.storyboard */; };
 		E90624FF2A267F5600DDA40F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90624FE2A267F5600DDA40F /* Singleton.swift */; };
+		E90625052A291E4A00DDA40F /* DependencyAndComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E90624F62A267F4100DDA40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90624F82A267F4100DDA40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90624FE2A267F5600DDA40F /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAndComposition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E90624F52A267F4100DDA40F /* LaunchScreen.storyboard */,
 				E90624F82A267F4100DDA40F /* Info.plist */,
 				E90624FE2A267F5600DDA40F /* Singleton.swift */,
+				E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90625052A291E4A00DDA40F /* DependencyAndComposition.swift in Sources */,
 				E90624EF2A267F3F00DDA40F /* ViewController.swift in Sources */,
 				E90624FF2A267F5600DDA40F /* Singleton.swift in Sources */,
 				E90624EB2A267F3F00DDA40F /* AppDelegate.swift in Sources */,
