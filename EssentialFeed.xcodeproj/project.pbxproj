@@ -13,12 +13,12 @@
 		E90624F22A267F3F00DDA40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90624F02A267F3F00DDA40F /* Main.storyboard */; };
 		E90624F42A267F4100DDA40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90624F32A267F4100DDA40F /* Assets.xcassets */; };
 		E90624F72A267F4100DDA40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90624F52A267F4100DDA40F /* LaunchScreen.storyboard */; };
-		E90624FF2A267F5600DDA40F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90624FE2A267F5600DDA40F /* Singleton.swift */; };
-		E90625052A291E4A00DDA40F /* DependencyAndComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */; };
+		E9CB785B2A33BA4400CBE7FE /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB785A2A33BA4400CBE7FE /* FeedItem.swift */; };
+		E9CB785D2A33BA4F00CBE7FE /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB785C2A33BA4F00CBE7FE /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E90624E72A267F3F00DDA40F /* Singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90624E72A267F3F00DDA40F /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90624EA2A267F3F00DDA40F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E90624EC2A267F3F00DDA40F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E90624EE2A267F3F00DDA40F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +26,8 @@
 		E90624F32A267F4100DDA40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90624F62A267F4100DDA40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90624F82A267F4100DDA40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E90624FE2A267F5600DDA40F /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
-		E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAndComposition.swift; sourceTree = "<group>"; };
+		E9CB785A2A33BA4400CBE7FE /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		E9CB785C2A33BA4F00CBE7FE /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		E90624DE2A267F3F00DDA40F = {
 			isa = PBXGroup;
 			children = (
-				E90624E92A267F3F00DDA40F /* Singleton */,
+				E90624E92A267F3F00DDA40F /* EssentialFeed */,
 				E90624E82A267F3F00DDA40F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +52,41 @@
 		E90624E82A267F3F00DDA40F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E90624E72A267F3F00DDA40F /* Singleton.app */,
+				E90624E72A267F3F00DDA40F /* EssentialFeed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E90624E92A267F3F00DDA40F /* Singleton */ = {
+		E90624E92A267F3F00DDA40F /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
 				E90624EA2A267F3F00DDA40F /* AppDelegate.swift */,
 				E90624EC2A267F3F00DDA40F /* SceneDelegate.swift */,
+				E9CB78592A33BA1D00CBE7FE /* Feed Feature */,
 				E90624EE2A267F3F00DDA40F /* ViewController.swift */,
 				E90624F02A267F3F00DDA40F /* Main.storyboard */,
 				E90624F32A267F4100DDA40F /* Assets.xcassets */,
 				E90624F52A267F4100DDA40F /* LaunchScreen.storyboard */,
 				E90624F82A267F4100DDA40F /* Info.plist */,
-				E90624FE2A267F5600DDA40F /* Singleton.swift */,
-				E90625042A291E4A00DDA40F /* DependencyAndComposition.swift */,
 			);
-			path = Singleton;
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
+		E9CB78592A33BA1D00CBE7FE /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB785A2A33BA4400CBE7FE /* FeedItem.swift */,
+				E9CB785C2A33BA4F00CBE7FE /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E90624E62A267F3F00DDA40F /* Singleton */ = {
+		E90624E62A267F3F00DDA40F /* EssentialFeed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E90624FB2A267F4100DDA40F /* Build configuration list for PBXNativeTarget "Singleton" */;
+			buildConfigurationList = E90624FB2A267F4100DDA40F /* Build configuration list for PBXNativeTarget "EssentialFeed" */;
 			buildPhases = (
 				E90624E32A267F3F00DDA40F /* Sources */,
 				E90624E42A267F3F00DDA40F /* Frameworks */,
@@ -88,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = Singleton;
+			name = EssentialFeed;
 			productName = Singleton;
-			productReference = E90624E72A267F3F00DDA40F /* Singleton.app */;
+			productReference = E90624E72A267F3F00DDA40F /* EssentialFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E90624E22A267F3F00DDA40F /* Build configuration list for PBXProject "Singleton" */;
+			buildConfigurationList = E90624E22A267F3F00DDA40F /* Build configuration list for PBXProject "EssentialFeed" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E90624E62A267F3F00DDA40F /* Singleton */,
+				E90624E62A267F3F00DDA40F /* EssentialFeed */,
 			);
 		};
 /* End PBXProject section */
@@ -144,9 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90625052A291E4A00DDA40F /* DependencyAndComposition.swift in Sources */,
+				E9CB785D2A33BA4F00CBE7FE /* FeedLoader.swift in Sources */,
 				E90624EF2A267F3F00DDA40F /* ViewController.swift in Sources */,
-				E90624FF2A267F5600DDA40F /* Singleton.swift in Sources */,
+				E9CB785B2A33BA4400CBE7FE /* FeedItem.swift in Sources */,
 				E90624EB2A267F3F00DDA40F /* AppDelegate.swift in Sources */,
 				E90624ED2A267F3F00DDA40F /* SceneDelegate.swift in Sources */,
 			);
@@ -347,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E90624E22A267F3F00DDA40F /* Build configuration list for PBXProject "Singleton" */ = {
+		E90624E22A267F3F00DDA40F /* Build configuration list for PBXProject "EssentialFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E90624F92A267F4100DDA40F /* Debug */,
@@ -356,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E90624FB2A267F4100DDA40F /* Build configuration list for PBXNativeTarget "Singleton" */ = {
+		E90624FB2A267F4100DDA40F /* Build configuration list for PBXNativeTarget "EssentialFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E90624FC2A267F4100DDA40F /* Debug */,
