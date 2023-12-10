@@ -31,6 +31,7 @@
 		E9D26CE62B24D9B200A92815 /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D26CE52B24D9B200A92815 /* ValidateFeedCacheUseCaseTests.swift */; };
 		E9D26CE82B25A6A300A92815 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D26CE72B25A6A300A92815 /* FeedCacheTestHelpers.swift */; };
 		E9D26CEA2B25A7CA00A92815 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D26CE92B25A7CA00A92815 /* SharedTestHelpers.swift */; };
+		E9D26CEC2B25B23D00A92815 /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D26CEB2B25B23D00A92815 /* FeedCachePolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		E9D26CE52B24D9B200A92815 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		E9D26CE72B25A6A300A92815 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		E9D26CE92B25A7CA00A92815 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		E9D26CEB2B25B23D00A92815 /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				E9861E292AF6841C004DFCA2 /* LocalFeedLoader.swift */,
 				E9861E2F2AF6B6B3004DFCA2 /* LocalFeedImage.swift */,
 				E9861E2B2AF6854D004DFCA2 /* FeedStore.swift */,
+				E9D26CEB2B25B23D00A92815 /* FeedCachePolicy.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				E9B14E6F2AEAE5E6001D22AD /* FeedImage.swift in Sources */,
 				E9B14E722AEAE5E6001D22AD /* HTTPClient.swift in Sources */,
 				E9861E2E2AF6B630004DFCA2 /* RemoteFeedItem.swift in Sources */,
+				E9D26CEC2B25B23D00A92815 /* FeedCachePolicy.swift in Sources */,
 				E9B14E6E2AEAE5E6001D22AD /* FeedLoader.swift in Sources */,
 				E9861E302AF6B6B3004DFCA2 /* LocalFeedImage.swift in Sources */,
 				E9861E2C2AF6854D004DFCA2 /* FeedStore.swift in Sources */,
