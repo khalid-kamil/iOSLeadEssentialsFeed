@@ -12,6 +12,7 @@
 		E9D3D4762B3B0F4600E2A453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3D4742B3B0F4600E2A453 /* Main.storyboard */; };
 		E9D3D4782B3B0F4A00E2A453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D3D4772B3B0F4A00E2A453 /* Assets.xcassets */; };
 		E9D3D47B2B3B0F4A00E2A453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3D4792B3B0F4A00E2A453 /* LaunchScreen.storyboard */; };
+		E9D3D4832B3B217300E2A453 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D4822B3B217300E2A453 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E9D3D4772B3B0F4A00E2A453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D3D47A2B3B0F4A00E2A453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D3D47C2B3B0F4A00E2A453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D3D4822B3B217300E2A453 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E9D3D46E2B3B0F4600E2A453 /* AppDelegate.swift */,
 				E9D3D4702B3B0F4600E2A453 /* SceneDelegate.swift */,
+				E9D3D4822B3B217300E2A453 /* FeedViewController.swift */,
 				E9D3D4742B3B0F4600E2A453 /* Main.storyboard */,
 				E9D3D4772B3B0F4A00E2A453 /* Assets.xcassets */,
 				E9D3D4792B3B0F4A00E2A453 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				E9D3D46F2B3B0F4600E2A453 /* AppDelegate.swift in Sources */,
 				E9D3D4712B3B0F4600E2A453 /* SceneDelegate.swift in Sources */,
+				E9D3D4832B3B217300E2A453 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
