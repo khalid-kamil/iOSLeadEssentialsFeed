@@ -118,6 +118,7 @@
 		E9D26CF52B27380B00A92815 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		E9D26CF72B27393100A92815 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		E9D26CF92B2739B900A92815 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
+		E9D3D4882B3B654900E2A453 /* EssentialFeedAPIEndToEndTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedAPIEndToEndTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +193,7 @@
 		E9B14E2D2AEAE480001D22AD = {
 			isa = PBXGroup;
 			children = (
+				E9D3D4882B3B654900E2A453 /* EssentialFeedAPIEndToEndTests.xctestplan */,
 				E9C475ED2B29A58E003E9B0E /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				E94767AA2AF2E66F007D00F8 /* CITest.xctestplan */,
 				E94767A92AF2D0E5007D00F8 /* EssentialFeed.xctestplan */,
@@ -813,6 +815,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.khalidkamil.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -831,6 +834,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.khalidkamil.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
