@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  ios-build-and-test:
+  ios-tests:
     - name: iOS CI Tests
     runs-on: macos-latest
 
@@ -29,7 +29,7 @@ jobs:
       run: xcodebuild clean build test -project EssentialFeed.xcodeproj -scheme "CI_iOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator -destination "platform=iOS Simulator,OS=17.0,name=iPhone 15" ONLY_ACTIVE_ARCH=YES
 
 
-  macos-build-and-test:
+  macos-tests:
     - name: macOS CI Tests
     runs-on: macos-latest
 
