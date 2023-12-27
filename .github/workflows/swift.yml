@@ -30,7 +30,7 @@ jobs:
 
 
   macos-tests:
-    - name: macOS CI Tests
+    name: macOS CI Tests
     runs-on: macos-latest
 
     steps:
