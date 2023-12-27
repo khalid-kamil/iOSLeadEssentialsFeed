@@ -4,8 +4,6 @@
 name: CI
 
 on:
-  commit:
-    branches: [ "feature/image-feed/ios-platform-support" ]
   push:
     branches: [ "main", "feature/image-feed/ios-platform-support" ]
   pull_request:
