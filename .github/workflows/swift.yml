@@ -11,12 +11,12 @@ on:
 
 jobs:
   ios-tests:
-    - name: iOS CI Tests
+    name: iOS CI Tests
     runs-on: macos-latest
 
     steps:
     - name: Checkout repository
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Set up Xcode
       uses: actions/setup-xcode@v3
@@ -35,7 +35,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
       # run: sudo xcode-select -switch /Applications/Xcode_14.2.app
     
     - name: Build and Test iOS
