@@ -185,7 +185,7 @@ GET *url* (TBD)
 ## UX Goals for the Feed UI Experience
 [✅] Load feed automatically when view is presented
 [✅] Allow customer to manually reload feed (pull to refresh)
-[ ] Show a loading indicator while loading feed
+[✅] Show a loading indicator while loading feed
 [ ] Render all loaded feed items (location, images, description)
 [ ] Image loading experience
     [ ] Load when image view is visible (on screen)
