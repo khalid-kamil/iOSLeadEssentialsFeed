@@ -25,6 +25,8 @@
 		E99A18C02B6A75540092C54E /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A18BF2B6A75540092C54E /* UIRefreshControl+TestHelpers.swift */; };
 		E99A18C22B6A75EC0092C54E /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A18C12B6A75EC0092C54E /* UIButton+TestHelpers.swift */; };
 		E99A18C42B6A76610092C54E /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A18C32B6A76610092C54E /* UIControl+TestHelpers.swift */; };
+		E99A18C72B6A77790092C54E /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A18C62B6A77790092C54E /* FeedViewController+TestHelpers.swift */; };
+		E99A18CA2B6A78A70092C54E /* FakeRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A18C92B6A78A70092C54E /* FakeRefreshControl.swift */; };
 		E99CD0212AF518B000FE348B /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CD0202AF518B000FE348B /* CacheFeedUseCaseTests.swift */; };
 		E9A6F6042B27715F00889E41 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F6032B27715F00889E41 /* CoreDataFeedStoreTests.swift */; };
 		E9A6F6062B27735200889E41 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6F6052B27735200889E41 /* CoreDataFeedStore.swift */; };
@@ -132,6 +134,8 @@
 		E99A18BF2B6A75540092C54E /* UIRefreshControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		E99A18C12B6A75EC0092C54E /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		E99A18C32B6A76610092C54E /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
+		E99A18C62B6A77790092C54E /* FeedViewController+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController+TestHelpers.swift"; sourceTree = "<group>"; };
+		E99A18C92B6A78A70092C54E /* FakeRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeRefreshControl.swift; sourceTree = "<group>"; };
 		E99CD0202AF518B000FE348B /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		E9A6F6032B27715F00889E41 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		E9A6F6052B27735200889E41 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
@@ -299,9 +303,19 @@
 		E99A18C52B6A771D0092C54E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E99A18C82B6A77B70092C54E /* Helpers */,
 				E90484272B619C8000987BBE /* FeedViewControllerTests.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E99A18C82B6A77B70092C54E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E99A18C62B6A77790092C54E /* FeedViewController+TestHelpers.swift */,
+				E99A18C92B6A78A70092C54E /* FakeRefreshControl.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		E99CD01F2AF5187200FE348B /* Feed Cache */ = {
@@ -796,7 +810,9 @@
 				E99A18C22B6A75EC0092C54E /* UIButton+TestHelpers.swift in Sources */,
 				E99A18C02B6A75540092C54E /* UIRefreshControl+TestHelpers.swift in Sources */,
 				E99A18C42B6A76610092C54E /* UIControl+TestHelpers.swift in Sources */,
+				E99A18C72B6A77790092C54E /* FeedViewController+TestHelpers.swift in Sources */,
 				E904842F2B61B42500987BBE /* XCTestCase+MemoryLeakTracking.swift in Sources */,
+				E99A18CA2B6A78A70092C54E /* FakeRefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
