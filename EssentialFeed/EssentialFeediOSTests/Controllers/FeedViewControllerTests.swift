@@ -247,22 +247,7 @@ final class FeedViewControllerTests: XCTestCase {
         return (sut, loader)
     }
 
-    
-
     private func makeImage(description: String? = nil, location: String? = nil, url: URL = URL(string: "https://any-url.com")!) -> FeedImage {
         return FeedImage(id: UUID(), description: description, location: location, url: url)
-    }
-}
-
-private extension UIImage {
-    static func make(withColor color: UIColor) -> UIImage {
-        let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
-        let format = UIGraphicsImageRendererFormat()
-        format.scale = 1
-
-        return UIGraphicsImageRenderer(size: rect.size, format: format).image { renderedContext in
-            color.setFill()
-            renderedContext.fill(rect)
-        }
     }
 }
