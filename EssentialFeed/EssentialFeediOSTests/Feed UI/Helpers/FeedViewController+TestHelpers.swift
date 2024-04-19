@@ -9,6 +9,11 @@ import EssentialFeediOS
 import UIKit
 
 extension FeedViewController {
+
+    var errorMessage: String? {
+        return errorView.message
+    }
+
     var isShowingLoadingIndicator: Bool {
         return refreshControl?.isRefreshing == true
     }
