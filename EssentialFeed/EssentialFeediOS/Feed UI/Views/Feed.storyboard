@@ -26,6 +26,7 @@
                                     <accessibility key="accessibilityConfiguration">
                                         <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                     </accessibility>
+                                    <gestureRecognizers/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -173,6 +174,11 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxZ-XM-LwF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="F7o-gb-Kss">
+                    <connections>
+                        <action selector="hideMessageAnimated" destination="w9Y-aq-DLS" id="mfz-KD-ery"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="762.59541984732823" y="-31.690140845070424"/>
         </scene>
