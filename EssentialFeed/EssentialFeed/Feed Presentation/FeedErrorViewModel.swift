@@ -1,19 +1,19 @@
 //
 //  FeedErrorViewModel.swift
-//  EssentialFeediOS
+//  EssentialFeed
 //
-//  Created by Khalid Kamil on 20/04/2024.
+//  Created by Khalid Kamil on 21/05/2024.
 //
 
-import EssentialFeed
+import Foundation
 
-struct FeedErrorViewModel {
-    let message: String?
+public struct FeedErrorViewModel {
+    public let message: String?
 
     static var noError: FeedErrorViewModel {
         return FeedErrorViewModel(message: nil)
     }
-
+    
     static func error(message: String) -> FeedErrorViewModel {
         FeedErrorViewModel(message: message)
     }

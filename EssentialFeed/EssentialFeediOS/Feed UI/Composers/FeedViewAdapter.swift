@@ -5,6 +5,7 @@
 //  Created by Khalid Kamil on 04/04/2024.
 //
 
+import EssentialFeed
 import UIKit
 
 final class FeedViewAdapter: FeedView {
